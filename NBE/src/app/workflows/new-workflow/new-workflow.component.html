@@ -1,0 +1,237 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+      <div class="rtl-fixes rtl-dir-fixes breadcrumb">
+        <strong>
+          الحجوزات
+        </strong>
+        /
+        <span>
+          خيارات الحجوزات
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="wizard-v3-content">
+    <div class="wizard-form">
+      <div class="wizard-header">
+        <h3 class="heading" style="color: #326287;">طلب حجز حافلة </h3>
+        <p>املأ جميع حقول النموذج للانتقال إلى الخطوة التالية</p>
+      </div>
+      <form class="form-register" action="#" method="post">
+        <div id="form-total">
+          <!-- SECTION 1 -->
+          <h2>
+            <span class="step-icon"><i class="fa fa-bus"></i></span>
+            <span class="step-text">الحافلة</span>
+          </h2>
+          <section>
+            <div class="inner">
+              <h3 style="color:#326287">معلومات الحافلة</h3>
+
+              <div class="form-group label-floating is-empty">
+                <label class="control-label">عدد المقاعد</label>
+                <input class="form-control" type="text" placeholder="" id="r1">
+              </div>
+
+              <div class="form-group label-floating is-select">
+                <label class="control-label">الدرجة</label>
+                <select class="selectpicker form-control" id="r2">
+                  <option value="ذهبي" selected>ذهبي</option>
+                  <option value="ممتازة">ممتازة</option>
+                  <option value="متوسط">متوسط</option>
+                  <option value="عادي">عادي</option>
+                </select>
+              </div>
+
+              <div class="form-group label-floating is-select">
+                <label class="control-label">مقصورة للتدخين</label>
+                <select class="selectpicker form-control" id="r3">
+                  <option value="نعم">نعم</option>
+                  <option value="كلا" selected>كلا</option>
+                </select>
+              </div>
+
+              <div class="form-group label-floating is-empty">
+                <label class="control-label">ملاحظات</label>
+                <input class="form-control" type="text" placeholder="" id="r4">
+              </div>
+
+            </div>
+          </section>
+          <!-- SECTION 2 -->
+          <h2>
+            <span class="step-icon"><i class="fa fa-map-marked-alt"></i></span>
+            <span class="step-text">الموقع</span>
+          </h2>
+          <section>
+            <div class="inner">
+              <h3 style="color:#326287">بيانات الموقغ</h3>
+
+              <div class="form-group label-floating is-empty">
+                <label class="control-label"> الوجهة</label>
+                <input class="form-control" type="text" placeholder="" id="r5">
+                <span class="input-group-addon">
+                  <svg class="olymp-calendar-icon">
+                    <use xlink:href="assets/web/svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <div class="form-group label-floating is-empty">
+                <label class="control-label">نقطة الانطلاق</label>
+                <input class="form-control" type="text" placeholder="" id="r6">
+                <span class="input-group-addon">
+                  <svg class="olymp-calendar-icon">
+                    <use xlink:href="assets/web/svg-icons/sprites/icons.svg#olymp-small-pin-icon"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <div class="form-group date-time-picker label-floating">
+                <label class="control-label">تاريخ الانطلاق</label>
+                <input name="datetimepicker" value="10/24/1984" id="r7" />
+                <span class="input-group-addon">
+                  <svg class="olymp-calendar-icon">
+                    <use xlink:href="assets/web/svg-icons/sprites/icons.svg#olymp-calendar-icon"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <div class="form-group date-time-picker label-floating">
+                <label class="control-label">تاريخ العودة</label>
+                <input name="datetimepicker" value="10/24/1984" id="r8" />
+                <span class="input-group-addon">
+                  <svg class="olymp-calendar-icon">
+                    <use xlink:href="assets/web/svg-icons/sprites/icons.svg#olymp-calendar-icon"></use>
+                  </svg>
+                </span>
+              </div>
+
+
+            </div>
+          </section>
+          <!-- SECTION 3 -->
+          <h2>
+            <span class="step-icon"><i class="fa fa-credit-card"></i></span>
+            <span class="step-text">الدفع</span>
+          </h2>
+          <section>
+            <div class="inner">
+              <h3 style="color:#326287">معلومات الدفع</h3>
+              <div class="form-row">
+                <div class="form-holder form-holder-2" fxLayout="row">
+                  <input type="radio" name="radio1" id="pay-1" value="pay-1" checked>
+                  <label style="margin-right: 0;" class="pay-1-label" for="pay-1"><img src="assets/web/img/wizard_v3_icon_1.png" alt="pay-1">Credit Card</label>
+                  <input type="radio" name="radio1" id="pay-2" value="pay-2">
+                  <label class="pay-2-label" for="pay-2"><img src="assets/web/img/wizard_v3_icon_2.png" alt="pay-2">Paypal</label>
+                  <label style="font-size: 33px;padding: 20px 60px;" for="pay-2">200$</label>
+                </div>
+              </div>
+
+
+              <div class="form-group label-floating is-empty">
+                <label class="control-label">اسم صاحب البطاقة</label>
+                <input class="form-control" type="text" placeholder="">
+              </div>
+
+              <div fxLayout="row">
+                <div class="form-group label-floating is-empty" fxFlex="70" style="margin-left: 15px;">
+                  <label class="control-label">رقم البطاقة</label>
+                  <input class="form-control" type="text" placeholder="">
+                </div>
+
+                <div class="form-group label-floating is-empty" fxFlex="30">
+                  <label class="control-label">رمز CVC</label>
+                  <input class="form-control" type="text" placeholder="">
+                </div>
+              </div>
+
+              <div fxLayout="row">
+                <div fxLayout="row" fxFlex="67">
+                  <div class="form-group label-floating is-empty" fxFlex="50" style="margin-left: 15px;">
+                    <label class="control-label">الشهر</label>
+                    <input class="form-control" type="text" placeholder="">
+                  </div>
+
+                  <div class="form-group label-floating is-empty" fxFlex="50">
+                    <label class="control-label">السنة</label>
+                    <input class="form-control" type="text" placeholder="">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+          <!-- SECTION 4 -->
+          <h2>
+            <span class="step-icon"><i class="fa fa-sticky-note"></i></span>
+            <span class="step-text">مراجعة</span>
+          </h2>
+          <section>
+            <div class="inner">
+
+              <h3 style="color:#326287">مراجعة الطلب</h3>
+              <div class="form-row table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr class="space-row">
+                      <th>عدد المقاعد</th>
+                      <td id="td1"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>الدرجة</th>
+                      <td id="td2"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>مقصورة للتدخين</th>
+                      <td id="td3"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>ملاحظات</th>
+                      <td id="td4"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th> الوجهة</th>
+                      <td id="td5"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>نقطة الانطلاق</th>
+                      <td id="td6"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>تاريخ الانطلاق</th>
+                      <td id="td7"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>تاريخ العودة</th>
+                      <td id="td8"></td>
+                    </tr>
+                    <tr class="space-row">
+                      <th>وسيلة الدفع</th>
+                      <td id="td9">Credit Card</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<swal
+  #swal
+  title="تم انشاء الطلب بنجاح"
+  text=""
+  icon="success"
+  [focusCancel]="true"
+  (confirm)="onDone($event)">
+</swal>
